@@ -10,11 +10,11 @@ count = 1  # Labels the new generated images
 images = []  # List of opened images
 
 # Opens all the images except the one to be pasted
-for img in glob.glob('ben_afflek/*.png'):
+for img in glob.glob('tony/*.png'):
     if img != img_to_paste:
         images.append(Image.open(img))
 
 for imag in images:
     imag.paste(img2, (10, 150), mask=img2)
-    imag.save(f'ben_afflek/pasted/{count}.png')
+    imag.save(f'tony/pasted/{count}.png')
     count += 1
