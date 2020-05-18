@@ -1,6 +1,8 @@
 ## Installation
-Create a virtual environment and activate it (Recommended)
+Create a virtual environment and activate it (Recommended) <br>
 Install pillow using `pip install pillow`
+
+----
 
 ## Examples
 
